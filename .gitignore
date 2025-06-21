@@ -1,0 +1,27 @@
+
+---
+
+#### ⚙️ `.gitignore`
+
+Create a `.gitignore` file and add:
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+ENV/
+.env.*
+
+# Data
+*.csv
+!data/orders.csv  # include only this CSV
